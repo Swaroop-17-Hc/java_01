@@ -10,16 +10,16 @@ public class Coditional_statements {
 		int b=200;
 		
 		if(a<b) {
-			System.out.println("a is lesser than b");	
+			//System.out.println("a is lesser than b");	
 			}
 		else if(a>b){
-			System.out.println("a is not lesser than b");
+			//System.out.println("a is not lesser than b");
 		}
 		else {
-			System.out.println("...");
+			//System.out.println("...");
 		}
 	
-	
+		
 	}
 
 }

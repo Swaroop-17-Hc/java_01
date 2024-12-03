@@ -47,5 +47,5 @@ public class operators {
 		b--;
 		System.out.println(b);
 		
-		}
+		
 }
