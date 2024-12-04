@@ -30,10 +30,14 @@ public class Arrays {
 	 int c[][]= {{100,200},{200,300},{300,400}};
 	 for(int i=0;i<c.length;i++) {
 		 for(int j=0;j<c[i].length;j++) {
-			 System.out.println(c[i][j]);
+			 if(i%2==0) {
+			 System.out.println("even numbers are:"+c[i][j]);
 		 }
+			 else {
+				 //System.out.println("Odd numbers are:");
+			 }
 	 }
 	 
-	}
+	
 
 }
